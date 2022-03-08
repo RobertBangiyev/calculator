@@ -37,6 +37,9 @@ function operate(operator, firstNum, secondNum) {
             break;
         case '/':
             output = Math.round(divide(firstNum, secondNum) * 10000000000000)/10000000000000;
+            if(output < 0) {
+                output = Math.round(divide(firstNum, secondNum) * 1000000000000)/1000000000000;
+            }
             break;
         default:
             alert('error');
