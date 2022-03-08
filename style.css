@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    gap: 10px;
+    border: 2px black solid;
+    background-color: steelblue;
+}
+
+.calculator div {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+}
+
+button {
+    flex: 1;
+    min-width: 30px;
+    min-height: 30px;
+    background-color: #FC9F0F;
+}
+
+p {
+    text-align: right;
+    width: 175px;
+    border: 1px black solid;
+    padding: 10px 2px;
+    font-size: 23px;
+    background-color: rgb(175, 174, 174);
+}
+
+.final {
+    margin-bottom: 20px;
+}
